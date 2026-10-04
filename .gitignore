@@ -1,0 +1,21 @@
+# Office temporary and lock files
+~$*
+*.tmp
+*.bak
+*.wbk
+
+# Review copies and extraction helpers
+review_gemini_copy.docx
+review_extract.py
+extract_docx.ps1
+
+# Rendered QA output and temporary working directories
+*_render/
+review_lo_profile/
+tmp_docx_extract*/
+tmp_out_extract*/
+tmp_*.zip
+
+# Operating-system files
+Thumbs.db
+.DS_Store
